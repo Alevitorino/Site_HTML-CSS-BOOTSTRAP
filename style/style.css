@@ -1,0 +1,260 @@
+/* Barra de navegação */
+.navbar{
+    background-color:#212121
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+/* Barra de navegação */
+
+/* Carrousel de imagens*/
+.carousel-item{
+   height: 900px;
+   background-position: top;
+   background-size: cover;
+}
+/* Carrousel de imagens*/
+
+/* Card no meio da página*/
+.card2{
+    background-color:#212121
+}
+/* Card no meio da página*/
+
+/* Buscando imagem( não sei se está sendo usado :/)*/
+#img1{
+    background-image: url(../img/slide2.jpg);
+}
+#img2{
+    background-image: url(../img/slide3.jpg);
+}
+#img3{
+    background-image: url(../img/slide1.jpg);
+}
+/* Buscando imagem( não sei se está sendo usado :/)*/
+
+
+/* Abrindo em mobile*/
+@media screen and (max-width: 480px) {
+    .carousel-item{
+        height: 300px;
+    }
+}
+/* Abrindo em mobile*/
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Rodapé */
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+#img-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#rodape{
+    padding-top: 10px;
+}
+/* Rodapé */
+
+/* Lista de alguma coisa (Não está sendo usado) */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Lista de alguma coisa (Não está sendo usado) */
+
+/* Redes sociais */
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* Redes sociais */
+
+@media screen and (min-width: 1281px){
+    #aes{
+        padding-top: 160px;
+    }
+    #smt{
+        padding-top: 135px;
+    }
+    #img-smarththings{
+        width: 75%;
+       
+    }
+    #container-smarthingds{
+        padding-left: 175px;
+    }
+    #img-footer{
+        padding-top: 10px;
+    }
+    #card-img1{
+        padding-top: 50px;
+        padding-bottom: 70px;
+        padding-left: 75px;
+        padding-right: 10px;
+        width: 80%;
+        
+    }
+    #card-img2{
+        padding-top: 10px;
+        padding-bottom: 60px;
+        padding-left: 100px;
+        padding-right: 10px;
+        width: 80%;
+        
+        
+    }
+    #card-img3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 70px;
+        padding-right: 10px;
+        width: 85%;            
+    }
+    #card-img4{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    #card-img5{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 10px;
+        width: 75%;
+        
+    }
+    #card-img6{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        padding-right: 10px;
+        width: 75%;
+        
+        
+    }
+    #card-img7{
+        padding-top: 75px;
+        padding-bottom: 10px;
+        padding-left: 70px;
+        padding-right: 10px;
+        width: 85%;   
+    }
+    #card-img8{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        padding-right: 50px;
+        width: 90%;
+    }
+    #card-img9{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        padding-right: 50px;
+        width: 90%;
+    }
+    #card-img10{
+        padding-top: 10px;
+        padding-bottom: 35px;
+        padding-left: 120px;
+        padding-right: 50px;
+        width: 78%;
+    }
+    #card-img11{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        padding-right: 50px;
+        width: 90%;
+    }
+    #card-img12{
+        padding-top: 10px;
+        padding-bottom: 93px;
+        padding-left: 100px;
+        padding-right: 50px;
+        width: 90%;
+    }
+} 
+
+
+ @media screen and (max-width: 1281px){
+    #card-img1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #card-pad{
+        padding-bottom: 20px;
+    }
+    
+    #card-img5{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    #card-img9{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #card-img10{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    #card-img11{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+} 
+
+
+/* Texto de produtos*/
+#produtos-text{
+    margin-top: 5px;
+    margin-bottom: 50px; 
+    color: #aeaeae ;
+}
+/* Texto de produtos*/
+
+/* card de  produtos */
+#card-bottom{
+    width: 99%;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* card de  produtos */
+#text-carrousel{
+    background-color: #212121af;
+}
+
+
